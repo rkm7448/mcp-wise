@@ -11,4 +11,7 @@ def create_app():
 
 mcp = create_app()
 
+def run():
+    app.run()
+
 from wise_mcp.resources import recipients, send_money
