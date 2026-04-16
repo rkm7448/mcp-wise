@@ -15,6 +15,9 @@ dependencies = [
     "fastmcp>=2.10.0",
 ]
 
+[project.scripts]
+mcp-wise = "wise_mcp.app:run"
+
 [project.optional-dependencies]
 dev = [
     "pytest>=7.0.0",
